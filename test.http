@@ -1,0 +1,16 @@
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+[
+  {
+    "id": 1,
+    "email": "alice@prisma.io",
+    "name": "Alice"
+  },
+  {
+    "id": 2,
+    "email": "john@example.com",
+    "name": "John"
+  }
+]
